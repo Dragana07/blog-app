@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Button1 from "../src/components/Button/Button1";
 import Hero from "./components/Hero/Hero";
 import Main from "./components/Main/Main";
-import Card from "./components/Card/Card";
+import CardComponent from "./components/Card/CardComponent";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Button1 />
       <Main />
-      <Card />
+      <CardComponent />
       <Footer />
     </div>
   );
