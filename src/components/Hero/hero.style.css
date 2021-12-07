@@ -1,3 +1,25 @@
-.hero {
-  background-color: salmon;
+.heroBacground {
+  height: 650px;
+  width: 100%;
+  background-image: url("../../Images/heroBackground1.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.myButton {
+  position: absolute;
+  margin: 0;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-60%, -50%);
+}
+
+.nav {
+  position: absolute;
+  margin: 0;
+  top: 15%;
+  left: 75%;
+  -ms-transform: translate(-15%, -75%);
+  transform: translate(-15%, -75%);
 }

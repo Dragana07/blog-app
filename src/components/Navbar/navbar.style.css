@@ -1,3 +1,32 @@
-.navbar {
-  background-color: red;
+.navb {
+  flex-direction: row;
+}
+
+.navb a {
+  text-decoration: none;
+  color: #fff;
+  font-size: x-large;
+  padding: 4px;
+}
+
+.navb a:hover {
+  border-bottom: 1px beige solid;
+  color: beige;
+}
+
+@media (min-width: 468px) {
+  .navb ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+}
+
+.navb ul {
+  padding: 0;
+  list-style: none;
+}
+
+.navb li {
+  padding: 15px;
 }
