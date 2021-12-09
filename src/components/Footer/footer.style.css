@@ -1,3 +1,53 @@
-.footer {
-  background-color: yellowgreen;
+
+
+
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px){
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerContainer > div{
+    border: 1px rgb(170, 192, 230) solid;
+    padding: 10px;  
+    text-align: justify;
+    margin: 10px;
+    flex: 100%;
+  }
+
+}
+
+
+.footerContainer > div{
+  border: 1px rgb(170, 192, 230) solid;
+  padding: 10px;  
+  text-align: justify;
+  margin: 10px;
+}
+
+.footer1{  
+  flex: 40%;  
+}
+
+.footer2{
+  flex: 25%;
+ }
+
+.footer3{
+flex:25%;
+}
+
+h3 {
+  text-align: center;
+  font-size: larger;
+  color: deepskyblue;
+}
+
+.formGroup {
+  display: flex;
 }
