@@ -1,28 +1,40 @@
 .main {
   padding: 30px 50px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
 }
 
-.main h1{
+.main h1 {
   text-align: left;
   font-weight: 600;
   color: rgb(75, 72, 72);
 }
 
+.main h3 {
+  text-align: left;
+  font-weight: 400;
+  color: rgb(75, 72, 72);
+}
+/* 
+.main Tabs {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+} */
 
 .cardPosition {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .main {
     padding: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
   }
   .cardPosition {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
   }
 }

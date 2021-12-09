@@ -2,14 +2,19 @@
   flex-direction: row;
 }
 
-.navb a {
+.mojLink {
   text-decoration: none;
   color: #fff;
   font-size: x-large;
-  padding: 4px;
+  padding: 15px;
 }
 
-.navb a:hover {
+.mojLink:hover {
+  border-bottom: 1px beige solid;
+  color: beige;
+}
+
+.active-link {
   border-bottom: 1px beige solid;
   color: beige;
 }
@@ -25,8 +30,4 @@
 .navb ul {
   padding: 0;
   list-style: none;
-}
-
-.navb li {
-  padding: 15px;
 }
